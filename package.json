@@ -1,0 +1,34 @@
+{
+	"name": "zantaku-modules",
+	"version": "1.0.0",
+	"description": "A modern rewrite of 50n50's modules with an improved structure and streamlined bundling process.",
+	"homepage": "https://github.com/zantaku/modules#readme",
+	"bugs": {
+		"url": "https://github.com/zantaku/modules/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zantaku/modules.git"
+	},
+	"files": [
+		"cli.js",
+		"commands",
+		"templates",
+		"build.js"
+	],
+	"license": "MIT",
+	"author": "Zantaku Devs; aka matthewdotpy",
+	"type": "commonjs",
+	"bin": {
+		"zantaku-modules": "./cli.js"
+	},
+	"dependencies": {
+		"acorn": "^8.15.0",
+		"esbuild": "^0.19.0",
+		"fs-extra": "^11.2.0",
+		"prompts": "^2.4.2"
+	},
+	"scripts": {
+		"test": "test"
+	}
+}
